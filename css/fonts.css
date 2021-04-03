@@ -1,0 +1,117 @@
+
+/* Great vibes */
+
+@font-face {
+    font-family: 'great_vibes';
+    src: url('fonty/greatvibes-regular-webfont.woff2') format('woff2'),
+         url('fonty/greatvibes-regular-webfont.woff') format('woff'),
+         url('fonty/greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+/* Alegreya sans */
+
+@font-face {
+    font-family: 'alegreya_sans';
+    src: url('fonty/alegreyasans-bold-webfont.woff2') format('woff2'),
+         url('fonty/alegreyasans-bold-webfont.woff') format('woff'),
+         url('fonty/alegreyasans-bold-webfont.svg#alegreya_sansbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans';
+    src: url('fonty/alegreyasans-bolditalic-webfont.woff2') format('woff2'),
+         url('fonty/alegreyasans-bolditalic-webfont.woff') format('woff'),
+         url('fonty/alegreyasans-bolditalic-webfont.svg#alegreya_sansbold_italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans';
+    src: url('fonty/alegreyasans-regular-webfont.woff2') format('woff2'),
+         url('fonty/alegreyasans-regular-webfont.woff') format('woff'),
+         url('fonty/alegreyasans-regular-webfont.svg#alegreya_sansregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans';
+    src: url('fonty/alegreyasans-italic-webfont.woff2') format('woff2'),
+         url('fonty/alegreyasans-italic-webfont.woff') format('woff'),
+         url('fonty/alegreyasans-italic-webfont.svg#alegreya_sansitalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans';
+    src: url('fonty/alegreyasans-light-webfont.woff2') format('woff2'),
+         url('fonty/alegreyasans-light-webfont.woff') format('woff'),
+         url('fonty/alegreyasans-light-webfont.svg#alegreya_sanslight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans';
+    src: url('fonty/alegreyasans-lightitalic-webfont.woff2') format('woff2'),
+         url('fonty/alegreyasans-lightitalic-webfont.woff') format('woff'),
+         url('fonty/alegreyasans-lightitalic-webfont.svg#alegreya_sanslight_italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans';
+    src: url('fonty/alegreyasans-thin-webfont.woff2') format('woff2'),
+         url('fonty/alegreyasans-thin-webfont.woff') format('woff'),
+         url('fonty/alegreyasans-thin-webfont.svg#alegreya_sansthin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'alegreya_sans';
+    src: url('fonty/alegreyasans-thinitalic-webfont.woff2') format('woff2'),
+         url('fonty/alegreyasans-thinitalic-webfont.woff') format('woff'),
+         url('fonty/alegreyasans-thinitalic-webfont.svg#alegreya_sansthin_italic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+
+}

@@ -1,0 +1,20 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #D3D3D3;
+  font-family: alegreya_sans, open-sans, arial;
+}
+
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
