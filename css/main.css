@@ -1,143 +1,170 @@
 /*
 fialová: #3E1730
 šedá: #D3D3D3
+
+shadow: 2px 2px 7px #000
 */
+
+
+/****************** Záhlaví *****************/
+
 .header {
-  background-color: #3E1730;
+    margin-bottom: 3rem;
+    background-color: #3E1730;
+    box-shadow: 0px 2px 7px #000;
 }
 
 .logo {
-  float: left;
-  padding: 1rem;
-  font-family: great_vibes;
-  font-size: 2rem;
+    float: left;
+    padding: .7rem;
+    font-family: Audiowide;
+    font-size: 2rem;
 
 }
 .logo a {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 .ul-menu {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  float: right;
-  list-style: none;
-  justify-content: space-between;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+    justify-content: space-between;
 }
 
+.ul-menu li {
+    position: relative;
+}
 .ul-menu li a {
-  display: block;
-  padding: 1.5rem 2rem;
-  color: #FFFFFF;
-  text-decoration: none;
+    display: block;
+    padding: 1.5rem 2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 2px 2px 7px #000;
 }
 .ul-menu li a.active, .ul-menu li a:hover, .ul-menu li a:focus, .ul-menu li a:active {
-  background-color: #a7a7a78c;
+    background-color: #a7a7a78c;
 }
 .ul-menu li a.active {
-  font-weight: bold;
+    font-weight: bold;
+}
+.ul-menu li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.ul-menu li:hover ul, .ul-menu li:focus ul, .ul-menu li:active ul {
+    display: block;
+    position: absolute;
+    background: #3E1730;
 }
 
-#uvod {
-  line-height: 31px;
-  font-size: 17px;
+
+/*************** Obsah **************/
+
+.intro {
+    padding-bottom: 3rem;
 }
 
-.icon {
-  margin: 20px;
-  height: 75px;
+.imgLeft {
+    width: 25%;
+    margin-right: 5%;
+    float: left;
+}
+.textRight {
+    width: 70%;
+    float: right;
+}
+.textRight > p:first-child {
+    margin-top: 0;
 }
 
-.icons {
-  text-align: center;
+
+
+/********* Services **********/
+
+.services ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+.services ul li {
+    position: relative;
+    padding-bottom: 15%;
+    width: 30%;
+    height: 0;
+}
+.services ul li a {
+    position: absolute;
+    display: flex;
+    color: #3E1730;
+    padding: 10%;
+    width: 80%;
+    height: 60%;
+    font-size: 1.2rem;
+    line-height: 1;
+    font-weight: bold;
+    text-decoration: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #3E1730;
+    border-radius: 10px;    
+    box-shadow: 2px 2px 7px #000;
+    transition: 200ms;
+}
+.services ul li a:hover, .services ul li a:focus, .services ul li a:active {
+    color: #291120;
+    border-color: #291120;
+    box-shadow: 2px 2px 7px #fff;
+}
+.servicePackages {
+    display: flex;
+    justify-content: space-between;
 }
 
-.part {
-  margin-top: 60px;
+.servicePackage {
+    display: flex;
+    color: #3E1730;
+    padding: 3%;
+    width: 24%;
+    flex-wrap: wrap;
+    border: 3px solid #3E1730;
+    border-radius: 10px;    
+    box-shadow: 2px 2px 7px #000;
+    transition: 200ms;
 }
 
-.row-eq-height [class*="col-"] {
-  padding: 0;
+.servicePackage .price {
+    padding: 3%;
+    font-weight: bold;
+    border: 3px solid #3E1730;
+    border-radius: 10px;    
+    box-shadow: 2px 2px 7px #fff;
+    align-self: flex-end;
+    
 }
 
-.row-eq-height img {
-  width: 100%;
-}
 
-.pics_hover {
-    filter: gray;
-  -webkit-filter: grayscale(100%);
-}
 
-/* Enable grayscale on hover */
-.pics_hover:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
-  -webkit-transition: -webkit-filter 1s ease;
-  -moz-transition: -webkit-filter 1s ease;
-  -o-transition: -webkit-filter 1s ease;
-  transition: -webkit-filter 1s ease;
-}
 
-.obr {
-  padding-top: 25px;
-}
 
-h3 {
-  color: #3E1730;
-  font-weight: bold;
-  font-size: x-large;
-  text-align: center;
-  margin-top: 50px;
-}
-
-p {
-  margin: 30px;
-}
-
-.anchor {
-  width: 0;
-  height: 0;
-  z-index: -1;
-  top: -40px;
-  visible: none;
-}
-
-h4 {
-  color: #3E1730;
-  margin-left: 30px;
-}
-
-input:not([type="submit"]) {
-  margin: 5px;
-  padding: 5px 100px 5px 5px;
-  border: 5px #3E1730;
-  -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.text {
-  padding-bottom: 50px !important;
-}
-
-form {
-  text-align: center;
-}
+/***************** Zápatí *******************/
 
 footer {
-  background-color: #3E1730;
-  color: #D3D3D3;
-  text-align: center;
-  width: 100%;
-  height: 40px !important;
-  margin-bottom: -40px;
-  margin-top: 40px;
-  clear: both;
-  bottom: 0;
-  padding: 6px;
-  position: relative;
+    width: 100%;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    background-color: #3E1730;
+    color: #D3D3D3;
+    text-align: center;
+    box-shadow: 0px -2px 7px 0px #000;
 }
