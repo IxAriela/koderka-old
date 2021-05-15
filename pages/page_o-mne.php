@@ -1,13 +1,23 @@
 <?php
-include("layout/header.php");
+include("design/layout/header.php");
 ?>
 
 
 <h1>O mně</h1>
 
+<p>
+            Jmenuji se Iveta Nešpor Levová, jsem geekgirl a vytvářím weby. Že chci dělat něco s weby jsem věděla už na vysoké škole, kde jsem se poprvé 
+            více začala dozvídat o internetu, webech a různých webových technologiích. Jen tehdy jsem ještě nevěděla přesně co, protože 
+            to nebyl IT obor a HTML jsme probírali pouze okrajově, CSS vůbec. A přitom až CSS je ta pravá zábava, dodává tomu ten vzhled :) 
+        </p> 
+        <p> 
+            Protože s IT jsem začala až relativně pozdě, troufám si říct, že jsem neztratila nic
+            z "běžného" jazyka a dokážu i techničtější webové věci vysvětlit laickým způsobem.
+        </p>
+        
 <div class="education clearfix">
     <h2>Vzdělání a praxe</h2>
-    <img class="imgLeft" alt="Vzdělání a praxe" title="Vzdělání a praxe" src="img/Zivotopis.jpg">
+    <img class="imgLeft" alt="Vzdělání a praxe" title="Vzdělání a praxe" src="design/img/Zivotopis.jpg">
 
     <div class="textRight">
         <p>
@@ -46,8 +56,11 @@ include("layout/header.php");
 
 <div class="projects clearfix">
     <h2>Projekty</h2>
+    <p>
+        Větší i menší projekty, které mě provázely životem v mém volném čase.
+    </p>
     <div class="gug clearfix">
-        <img class="imgLeft" src="img/logo-gug.png" alt="Google User Group" title="Google User Group">
+        <img class="imgLeft" src="design/img/logo-gug.png" alt="Google User Group" title="Google User Group">
         <div class="textRight">
             <h3><a target="_blank" href="https://gug.cz/">Google User Group</a></h3>
             <p>
@@ -63,23 +76,21 @@ include("layout/header.php");
     </div>
     <br/>
     <div class="czechitas clearfix">
-        <img class="imgLeft" src="img/czechitas.png" alt="Czechitas" title="Czechitas">
+        <img class="imgLeft" src="design/img/czechitas.png" alt="Czechitas" title="Czechitas">
         <div class="textRight">
             <h3><a target="_blank" href="https://www.czechitas.cz/cs/">Czechitas</a></h3>
             <p>
-                Google User Group alias GUG.cz je&nbsp;skupina nadšenců do&nbsp;(Google) technologií. Dobrovolníci z&nbsp;celé 
-                republiky pořádají akce, přednášky, workshopy a&nbsp;další, kde většinou kombinují vzdělávání a&nbsp;zábavu.
+                Czechitas je skupina dobrovolníků, kteří učí děti a holky IT. 
             </p>
             <p>
-                Ke&nbsp;GUGu jsem se dostala díky školnímu projektu (předmět Aplikační seminář - skupinový projekt na&nbsp;2&nbsp;semestry, 
-                tedy celý rok) a&nbsp;pokračovala jsem v&nbsp;něm s&nbsp;radostí i&nbsp;po&nbsp;škole, v&nbsp;podstatě až&nbsp;do&nbsp;teď. 
-                Nyní mám na&nbsp;starosti hlavně administraci této neziskovky a&nbsp;kvůli tomu už&nbsp;moc nestíhám samotné organizování akcí.
+                K Czechitas mě dovedl kolega z práce, když mě přivedl na dlouhodobý kurz tvorby webu jako motivační mluvčí, no a já už tam zůstala a pomáhala.
+                Většinou bývám na akcích jako koučka, tj. chodím mezi holkami a pomáhám jim, pokud něco nefunguje jak má. Výjimečně se akcí zúčastňuji jako fotografka.
             </p>
         </div>
     </div>
     <br/>
     <div class="ilPhotography clearfix">
-        <img class="imgLeft" alt="Iveta Levová Photography" title="Iveta Levová Photography" src="img/photoil.png">
+        <img class="imgLeft" alt="Iveta Levová Photography" title="Iveta Levová Photography" src="design/img/photoil.png">
         <div class="textRight">
             <h3><a target="_blank" href="https://www.facebook.com/ivetalevovaphoto/">Iveta Levová Photography</a></h3>
             <p>
@@ -93,13 +104,26 @@ include("layout/header.php");
         </div>
     </div>
 
+     <br/>
+    <div class="maternity clearfix">
+        <img class="imgLeft" alt="Iveta Nešpor Levová" title="Iveta Nešpor Levová" src="design/img/materska.jpg">
+        <div class="textRight">
+            <h3>Mateřská</h3>
+            <p>
+                Není to úplně klasický projekt, ale vzhledem k tomu, že je to nyní mé "zaměstnání" na plný úvazek, je potřeba to tady zmínit.
+            </p>
+            <p>
+                
+            </p>
+        </div>
+    </div>
 </div>
 
 
 
 <div class="hobbies clearfix">
     <h2>Koníčky</h2>
-    <img class="imgLeft" alt="Koníčky" title="Koníčky" src="img/Konicky.jpg">
+    <img class="imgLeft" alt="Koníčky" title="Koníčky" src="design/img/Konicky.jpg">
     <div class="textRight">
         <p>
             Protože za dob mého dětství byly počítače celkem vzácnost (ještě že tak!),
@@ -123,5 +147,5 @@ include("layout/header.php");
 
 
 <?php
-include("layout/footer.php");
+include("design/layout/footer.php");
 ?>

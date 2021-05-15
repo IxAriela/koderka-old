@@ -1,0 +1,159 @@
+
+body { min-width: 320px; }
+
+.label-opener {
+    cursor: pointer;
+    display: none;
+}
+.label-span {
+    height: 25px;
+    margin-right: 2%;
+    position: relative;
+    clear: right;
+    float: right;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+    width: 45px;
+    margin-top: 5px;
+}
+.label-span.informace {
+    margin-right: 4.5%;
+}
+.label-span.title {
+    width: auto;
+    height: auto;
+    margin-left: 0;
+}
+.label-span span {
+    display: block;
+    width: 45px;
+    height: 7px;
+    background: #fff;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+.label-span span + span {
+    top: 16px;
+}
+.label-span span + span + span {
+    top: 27px;
+}
+.label-span.title span {
+    display: none;
+    margin-top: 4px;
+    left: 14px;
+}
+
+
+input[type=checkbox].nezobrazovat { display: none; }
+
+@media only screen and (max-width: 1300px) {
+
+    .container { padding: 0 10px; }
+    
+    
+}
+@media only screen and (max-width: 1200px) {
+
+
+    
+}
+
+
+@media only screen and (max-width: 1020px) {
+  
+    
+    
+}
+
+@media only screen and (max-width: 900px) {
+    
+    
+
+}
+
+@media only screen and (max-width: 800px) {
+    
+    
+    
+
+}
+
+
+@media only screen and (max-width: 730px) {
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 630px) {
+    
+    
+    
+    
+}
+
+@media only screen and (max-width: 530px) {
+    
+    
+    
+    
+}
+
+@media only screen and (max-width: 430px) {
+    
+    
+    
+}
+
+
+@media screen and (max-width: 970px) {
+
+
+    table {
+	border: 0;
+    }
+
+    table tr th {
+	display: none;
+    }  
+
+    table thead {
+	display: none;
+    }
+
+    table tr {
+	margin-bottom: 10px;
+	display: block;
+	/*border-bottom: 2px solid #ddd;*/
+    }
+
+    table td p { text-align: center !important;}
+
+    table td {
+	display: block;
+	text-align: right;
+	font-size: 13px;
+	/*border-bottom: 1px dotted #ccc;*/
+	text-align: center !important;
+    }
+
+    table td:last-child {
+	border-bottom: 0;
+    }
+
+    table td:before {
+	content: attr(data-label);
+	/*float: left;*/
+	display: block;
+	text-align: center !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #06377a;
+	padding: 0.5em;
+	background-color: transparent;
+    }
+}

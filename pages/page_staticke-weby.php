@@ -1,5 +1,5 @@
 <?php
-include("layout/header.php");
+include("design/layout/header.php");
 ?>
 <h1>Weby bez redakčního systému</h1>
 <h2></h2>
@@ -55,5 +55,5 @@ include("layout/header.php");
     </div>
 </div>
 <?php
-include("layout/footer.php");
+include("design/layout/footer.php");
 ?>

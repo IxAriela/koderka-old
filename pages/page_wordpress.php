@@ -1,5 +1,5 @@
 <?php
-include("layout/header.php");
+include("design/layout/header.php");
 ?>
 <h1>Weby na redakčním systému Wordpress</h1>
 <h2>Proč Wordpress?</h2>
@@ -60,5 +60,5 @@ include("layout/header.php");
         <div class="price">od 15 000,-</div>
     </div>
     <?php
-    include("layout/footer.php");
+    include("design/layout/footer.php");
     ?>

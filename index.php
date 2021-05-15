@@ -3,7 +3,7 @@
 
 	include("system/source.php");
 	include("system/function.php");
-//	include("system/session.php");
+	include("system/session.php");
 
 
 	$pageIndex = false;
@@ -27,7 +27,7 @@
 		if ($page == "akce") {
 			$presmerovani = IsSet($_SERVER["HTTP_REFERER"]) ? $_SERVER["HTTP_REFERER"] : "index.html";
 
-			if (IsSet($_GET["napiste-nam"])) {include("pages/akce/napiste-nam.php");}
+			if (IsSet($_GET["writeMe"])) {include("pages/action/writeMe.php");}
 
 			header("Location: ".$presmerovani);
 			exit;

@@ -1,7 +1,7 @@
 <?php
 
-define("EMAIL_ODESILATELE", "info@ivetazdenek.cz");
-define("EMAIL_PRIJEMCE", " ivet.lev@gmail.com");
+define("EMAIL_ODESILATELE", "info@koderka.net");
+define("EMAIL_PRIJEMCE", " ivet@koderka.net");
 define("CESTA_KOREN", str_replace("index.php", "", $_SERVER["SCRIPT_FILENAME"]));
 define("CESTA_KATALOG_OBRAZKU", CESTA_KOREN . "katalog-obrazku/");
 

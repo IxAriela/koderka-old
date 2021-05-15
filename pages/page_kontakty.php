@@ -1,18 +1,20 @@
 <?php
-include("layout/header.php");
+include("design/design/layout/header.php");
 ?>
 
 
 <h1>Kontakt</h1>
 
-<form action="mail.php" method="post" align="center">
-    <div class="row col-sm-12"><input type="text" name="jmeno" maxlength="25" placeholder="Jméno"></div>
-    <div class="row col-sm-12"><input type="email" name="email" placeholder="E-mail"></div>
-    <div class="row col-sm-12"><input type="subject" name="predmet" placeholder="Předmět"></div>
-    <div class="row col-sm-12"><input class="text" type="text" name="zprava" placeholder="Vaše zpráva"></div>
-    <div class="row col-sm-12"><input type="submit"></div>
-</form>
+<p>
+    Bc. Iveta Nešpor Levová<br/>
+    <b>e-mail:</b> <a href="mailto:ivet@koderka.net">ivet@koderka.net</a>
+</p>
+
 
 <?php
-include("layout/footer.php");
+include("design/design/layout/contactForm.php");
+?>
+
+<?php
+include("design/design/layout/footer.php");
 ?>

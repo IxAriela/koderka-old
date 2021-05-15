@@ -1,6 +1,6 @@
 <?php
 	function Stav($zprava, $typ) {
-		$_SESSION["stav"] = "";
+		$_SESSION["stav"] = array();
 		$_SESSION["stav"]["zprava"] = $zprava;
 		$_SESSION["stav"]["typ"] = $typ;
 	}

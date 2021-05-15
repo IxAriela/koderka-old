@@ -1,0 +1,260 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #D3D3D3;
+  font-family: open_sans, arial;
+}
+
+
+p {
+    margin: 1rem 0;
+}
+
+h1 {
+    padding: 1rem 0;
+    color: #3E1730;
+    font-family: Audiowide;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 1px 0px #fff;
+}
+h2 {
+    padding: 1rem 0;
+    color: #3E1730;
+    font-family: Audiowide;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #fff;
+}
+h3 {
+    padding: 1rem 0;
+    color: #3E1730;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+
+h4 {
+    padding: .7rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* spaces */
+.margin1 {
+    margin: 1rem 0;
+}
+.margin2 {
+    margin: 2rem 0;
+}
+.margin3 {
+    margin: 3rem 0;
+}
+.marginT0 {
+    margin-top: 0;
+}
+.marginL0 {
+    margin-left: 0;
+}
+.marginB0 {
+    margin-bottom: 0;
+}
+.marginR0 {
+    margin-right: 0;
+}
+
+.padding1 {
+    padding: 1rem 0;
+}
+.padding2 {
+    padding: 2rem 0;
+}
+.padding3 {
+    padding: 3rem 0;
+}
+.paddingT0 {
+    padding-top: 0;
+}
+.paddingL0 {
+    padding-left: 0;
+}
+.paddingB0 {
+    padding-bottom: 0;
+}
+.paddingR0 {
+    padding-right: 0;
+}
+
+
+/* Images, img + txt */
+img {
+    max-width: 100%;
+    /*box-shadow: 2px 2px 7px #000;*/
+    /*border-radius: 10px;*/
+}
+.imgRight {
+    width: 25%;
+    float: right;
+    margin-left: 5%;
+}
+.imgLeft {
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+}
+
+.textRight {
+    width: 70%;
+    float: right;
+}
+.textRight > p:first-child {
+    margin-top: 0;
+}
+.textLeft {
+    width: 70%;
+    float: left;
+}
+.textLeft > p:first-child {
+    margin-top: 0;
+}
+
+/* classes */
+.clear {
+    clear: both;
+}
+.big {
+    font-size: 1.3rem;
+}
+.small {
+    font-size: .8rem;
+}
+.secondFont {
+    font-family: Audiowide;
+}
+.bgLight {
+    background: #ece9e9;
+}
+.trick {
+    display: none;
+}
+
+
+/* Forms */
+#writeMe .field{
+    position: relative;
+}
+#writeMe .field.half {
+    width: 49%;
+    float: left;
+}
+#writeMe .field.half.first {
+    margin-right: 2%;
+}
+#writeMe .field.full {
+    width: 100%;
+    clear: both;
+}
+#writeMe .field label {
+    position:absolute;
+    left:0;
+    top:5px;
+    transition:all .5s linear;
+    color:#3E1730;
+    font-size:.7rem;
+    font-weight: bold;
+}
+#writeMe .field input {
+    padding: 1% 2%;
+    margin-top:20px;
+    width:100%;
+    color:#3E1730;
+    background:#ece9e9;
+    border: 0;
+    border-bottom: 3px solid #3E1730;
+    /*border-radius: 10px;*/    
+    /*box-shadow: 2px 2px 7px #fff;*/
+    box-sizing: border-box;
+    font-family: open_sans, arial;
+}
+#writeMe .field input::placeholder {
+    color:#3E1730;
+}
+#writeMe .field input[type=submit] {
+    width:100%;
+}
+#writeMe .field input~label {
+    opacity:0;
+}
+#writeMe .field input:focus~label {
+    opacity:1;
+}
+#writeMe .field input:not(:placeholder-shown)~label {
+    opacity:1;
+}
+#writeMe .field input:focus~label {
+    opacity:1;
+}
+#writeMe .field input:focus {
+    outline:0;
+}
+#writeMe .field textarea {
+    padding: 1%;
+    margin-top:20px;
+    width:100%;
+    color:#3E1730;
+    background:#ece9e9;
+    border: 0;
+    border-bottom: 3px solid #3E1730;
+    /*border-radius: 10px;*/    
+    /*box-shadow: 2px 2px 7px #fff;*/
+    box-sizing: border-box;
+    font-family: open_sans, arial;
+}
+#writeMe .field textarea::placeholder {
+    color:#3E1730;
+}
+#writeMe .field textarea~label {
+    opacity:0;
+}
+#writeMe .field textarea:focus~label {
+    opacity:1;
+}
+#writeMe .field textarea:not(:placeholder-shown)~label {
+    opacity:1;
+}
+#writeMe .field textarea:focus~label {
+    opacity:1;
+}
+#writeMe .field textarea:focus {
+    outline:0;
+}
+#writeMe input[type=submit] {
+    padding: 1% 2%;
+    margin-top:15px;
+    margin-bottom:0;
+    float:right;
+    font-weight: bold;
+    border: 3px solid #3E1730;
+    border-radius: 10px;    
+    box-shadow: 2px 2px 7px #000;
+    cursor: pointer;
+}
+#writeMe input[type="submit"]:hover, #writeMe input[type="submit"]:focus, #writeMe input[type="submit"]:active {
+    color: #291120;
+    border-color: #291120;
+    box-shadow: 2px 2px 7px #fff;
+}
