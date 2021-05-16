@@ -21,8 +21,9 @@ if ($_POST["name"] != "" || $_POST["email"] != "" || $_POST["web"] != "" || $_PO
     $Message = IsSet($_POST["txtMessage"]) && trim($_POST["txtMessage"]) != "" ? $_POST["txtMessage"] : null;
     $Url = IsSet($_POST["url"]) && trim($_POST["url"]) != "" ? $_POST["url"] : null;
 
+    $cond = "";
     if ($Name == null)
-        $cond .= "&nbsp;&ndash;&nbsp;jméno<br />";
+        $cond .= "&nbsp;&ndash;&nbsp;jméno<br />";  //$cond.= "abc"; znamena na konec promenne $cond doplni dalsi text, promenna neexistovala. Dlouhy zapis by byl $cond = $cond . "abc";
     if ($Email == null)
         $cond .= "&nbsp;&ndash;&nbsp;e-mail<br />";
     if ($Message == null)
@@ -47,9 +48,9 @@ if ($_POST["name"] != "" || $_POST["email"] != "" || $_POST["web"] != "" || $_PO
             Stav("Vzkaz byl úspěšně odeslán.", 1);
             unset($_SESSION["WRITE_ME"]);
             $_SESSION['ODESLAN_MAIL'] = 1;
-	    $location = PREFIX . "dekuji.html";
-	    header("Location: " . $location . "");
-	    die();
+            $location = PREFIX . "dekuji.html";
+            //header("Location: " . $location . "");
+            //die();    //to probublá zpět do indexu kde je header taky
         } else {
             Stav("Omlouváme se, ale vzkaz se nepodařilo odeslat.", 0);
         }

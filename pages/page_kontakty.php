@@ -1,5 +1,5 @@
 <?php
-include("design/design/layout/header.php");
+include("design/layout/header.php");
 ?>
 
 
@@ -12,9 +12,9 @@ include("design/design/layout/header.php");
 
 
 <?php
-include("design/design/layout/contactForm.php");
+include("design/layout/contactForm.php");
 ?>
 
 <?php
-include("design/design/layout/footer.php");
+include("design/layout/footer.php");
 ?>

@@ -1,9 +1,10 @@
 RewriteEngine On
-RewriteBase /nespor-levova/
+RewriteBase /
 
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^/]+).(php|html)$ index.php?page=$1 [L,QSA]
+RewriteRule ^([^/]+).(php|html)$ index.php?page=$1 [L,QSA]   #tohle pravidlo ti neumozni delat zanorene adresy web.cz/prvnizanoreni/stranka.html
+RewriteRule ^pages/action/([^/]+).(php|html)$ index.php?action=$1 [L,QSA]  #proto nesly ani akce takze specialne pro akce jsem doplnil toto
 
 
 #Zakomentováno:

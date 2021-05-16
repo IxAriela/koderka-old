@@ -12,6 +12,8 @@
 	if (!IsSet($_GET["page"]) or !file_exists("pages/page_".basename($_GET["page"]).".php")) $page = "404";
 	else $page = basename($_GET["page"]);
 
+	$action = isset($_GET["action"]) ? basename($_GET["action"]) : "";   //ternární operátor  $hodnota = podminka ? pokud ano : pokud ne;
+
 	//...Default
 	if (!IsSet($_GET["page"])) $page = "index";
 
@@ -24,12 +26,12 @@
 		require_once("sitemap-xml.php");
 	} else {
 		//...Provádění akcí nad daty
-		if ($page == "akce") {
-			$presmerovani = IsSet($_SERVER["HTTP_REFERER"]) ? $_SERVER["HTTP_REFERER"] : "index.html";
+		if ($action) {
+			$location = IsSet($_SERVER["HTTP_REFERER"]) ? $_SERVER["HTTP_REFERER"] : "index.html";
 
-			if (IsSet($_GET["writeMe"])) {include("pages/action/writeMe.php");}
+			if ($action == "writeMe") {include("pages/action/writeMe.php");}
 
-			header("Location: ".$presmerovani);
+			header("Location: ".$location);
 			exit;
 
 		//...Zobrazování ostatních stránek

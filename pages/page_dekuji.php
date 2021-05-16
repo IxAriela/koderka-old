@@ -7,6 +7,10 @@
     <p>V nejbližší době Vás budu kontaktovat.</p>
 
     <br><br>
+
+    <?php
+    /*
+    ?>
     <h2 class="jakoH3">Kam chcete jít dál?</h2>
     <ul class="dekujeme_ul">
 	<?php $nemovitosti = VratDetailHierarchie(HIERARCHIE_NEMOVITOSTI); ?>
@@ -18,5 +22,6 @@
 	<?php $kontakt = VratDetailProduktu(CLANEK_KONTAKTY); ?>
 	<li><a href="<?php echo($kontakt["cesta"]); ?>"><?php echo($kontakt["pr_nazev"]); ?></a></li>
     </ul>
+    <?php */ ?>
 </div>
 <?php include("design/layout/footer.php"); ?>

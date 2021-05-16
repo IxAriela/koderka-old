@@ -7,38 +7,24 @@
 	
 	//...showHTML
 	//...showPOPUP
-	function ZobrazStav() {
-		if (IsSet($_SESSION["stav"]) && IsSet($_SESSION["stav"]["zprava"]) && IsSet($_SESSION["stav"]["typ"])) {
-			$zprava = $_SESSION["stav"]["zprava"];
-			//...OK
-			if ($_SESSION["stav"]["typ"] == 1) {
-				if (STAV_OK == "showPOPUP") {
-					echo ("<script type=\"text/javascript\">\n");
-					echo ("	//<![CDATA[\n");
-					echo ("		stavZprava = \"".$zprava."\";\n");
-					echo ("		stavTyp = 1;\n");
-					echo ("	//]]>\n");
-					echo ("</script>\n");
-					echo ("<noscript>\n");
-					echo ("	<div id=\"stavOk\">".$zprava."</div>\n");	
-					echo ("</noscript>\n");
-				} else echo ("<div id=\"stavOk\">".$zprava."</div>");
-			}
-			//...Chyba
-			if ($_SESSION["stav"]["typ"] == 0) {
-				if (STAV_ERR == "showPOPUP") {
-					echo ("<script type=\"text/javascript\">\n");
-					echo ("	//<![CDATA[\n");
-					echo ("		stavZprava = \"".$zprava."\";\n");
-					echo ("		stavTyp = 0;\n");
-					echo ("	//]]>\n");
-					echo ("</script>\n");
-					echo ("<noscript>\n");
-					echo ("	<div id=\"stavChyba\">".$zprava."</div>\n");	
-					echo ("</noscript>\n");
-				} else echo ("<div id=\"stavChyba\">".$zprava."</div>");
-			}
-			$_SESSION["stav"] = null;
-		}
-	}
+function ZobrazStav() {
+    if (IsSet($_SESSION["stav"]) && IsSet($_SESSION["stav"]["zprava"]) && IsSet($_SESSION["stav"]["typ"])) {
+        $zprava = $_SESSION["stav"]["zprava"];
+        ?>
+        <div class="alert
+                             <?php
+        if ($_SESSION["stav"]["typ"] == 1) echo "alert-success alert-dismissible ";
+        else if ($_SESSION["stav"]["typ"] == 0) echo "alert-danger alert-dismissible  ";
+        ?>
+                             fade show" role="alert">
+            <?php
+            echo $zprava;
+            ?>
+            <!--button type="button" class="btn-close" aria-label="Close"></button-->
+        </div>
+        <?php
+
+        unset($_SESSION["stav"]);
+    }
+}
 ?>

@@ -9,12 +9,12 @@
 
         <title>Iveta Nešpor Levová</title>
 
-        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>css/reset.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>css/fonts.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>css/general.css<?php echo(REFERER); ?>">
-        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>css/main.css<?php echo(REFERER); ?>">
-        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>css/responsive.css<?php echo(REFERER); ?>">
-        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>css/jquery.fancybox.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>design/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>design/css/fonts.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>design/css/general.css<?php echo(REFERER); ?>">
+        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>design/css/main.css<?php echo(REFERER); ?>">
+        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>design/css/responsive.css<?php echo(REFERER); ?>">
+        <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>design/css/jquery.fancybox.css" />
         
         <link rel="shortcut icon" href="images/favicon.ico">
 
@@ -55,3 +55,6 @@
         </header>
         <section>
             <div class="container">
+<?php
+echo ZobrazStav();
+?>
