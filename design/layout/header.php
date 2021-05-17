@@ -17,8 +17,8 @@
         <meta name="msapplication-TileColor" content="#3e1730">
         <meta name="theme-color" content="#ffffff">
 
-        
-        
+
+
         <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>design/css/reset.css">
         <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>design/css/fonts.css">
         <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>design/css/general.css<?php echo(REFERER); ?>">
@@ -26,10 +26,9 @@
         <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>design/css/responsive.css<?php echo(REFERER); ?>">
         <link rel="stylesheet" type="text/css" href="<?php echo(PREFIX); ?>design/css/jquery.fancybox.css" />
 
-        <link rel="shortcut icon" href="images/favicon.ico">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!--<script src="script.js"></script>--> 
+        <script src="script.js"></script> 
 
         <script type="text/javascript">
             //<![CDATA[
@@ -65,3 +64,6 @@
         </header>
         <section>
             <div class="container">
+                <?php
+                echo ZobrazStav();
+                ?>
