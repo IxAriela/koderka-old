@@ -1,0 +1,60 @@
+RewriteEngine On
+RewriteBase /koderka.net/
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+).(php|html)$ index.php?page=$1 [L,QSA]   #tohle pravidlo ti neumozni delat zanorene adresy web.cz/prvnizanoreni/stranka.html
+RewriteRule ^pages/action/([^/]+).(php|html)$ index.php?action=$1 [L,QSA]  #proto nesly ani akce takze specialne pro akce jsem doplnil toto
+
+
+#Zakomentováno:
+
+#RewriteRule ^admin/(.*)$ index.php?stranka=prihlasit [L]
+#RewriteRule ^nastaveni/([^/]+).html$ index.php?stranka=$1 [L,QSA]
+
+
+
+#RewriteRule ^([a-z]{2})/$ $1/index.html [L]
+
+#Kontrola souboru
+#RewriteRule ^katalog-obrazku/clanek-[0-9]+/(([0-9]+)-.*)$ vrat-soubor.php?soubor=$2&ht=26 [L,QSA]
+
+#Katalog
+#RewriteRule ^([a-z]{2})/e-shop/(.*)/filtrovani-polozek.php$ index.php?katalog=&hierarchie=e-shop/$2&e-shop=&jazyk_z_url=$1&ht=1 [L,QSA]
+#RewriteRule ^([a-z]{2})/e-shop/(.*)/([0-9]+)/([^/]+).php$ index.php?katalog=&hierarchie=e-shop/$2&upravit=$4&id_url=$3&e-shop=&jazyk_z_url=$1&ht=2 [L,QSA]
+#RewriteRule ^([a-z]{2})/e-shop/(.*)/(.*)\.php$ index.php?katalog=&hierarchie=e-shop/$2&upravit=$3&e-shop=&jazyk_z_url=$1&ht=3 [L,QSA]
+#RewriteRule ^([a-z]{2})/e-shop/(.*)/([0-9]+)/([^/]+).html$ index.php?katalog=&hierarchie=e-shop/$2&zobrazit=$4&id_url=$3&e-shop=&jazyk_z_url=$1&ht=4 [L]
+#RewriteRule ^([a-z]{2})/e-shop/(.*)/(.*)\.html$ index.php?katalog=&hierarchie=e-shop/$2&zobrazit=$3&e-shop=&jazyk_z_url=$1&ht=5 [L]
+#RewriteRule ^([a-z]{2})/e-shop/(.*)\.html$ index.php?hierarchie=e-shop/&zobrazit=e-shop-$2&e-shop=&jazyk_z_url=$1&ht=6 [L]
+##RewriteRule ^(cz|en|ru|pl|sk|de)/e-shop/(.*)$ index.php?hierarchie=e-shop/&zobrazit=e-shop-index&e-shop=&jazyk_z_url=$1&ht=7 [L]
+#RewriteRule ^([a-z]{2})/e-shop/(.*)$ index.php?katalog=&hierarchie=e-shop/$2&e-shop=&jazyk_z_url=$1&ht=8 [L]
+#
+#RewriteRule ^([a-z]{2})/(.*)/([0-9]+)/(.*)\.php$ index.php?katalog=&hierarchie=$2&upravit=$4&id_url=$3&jazyk_z_url=$1&ht=24 [L,QSA]
+#RewriteRule ^([a-z]{2})/(.*)/(.*)\.php$ index.php?katalog=&hierarchie=$2&upravit=$3&jazyk_z_url=$1&ht=9 [L,QSA]
+#RewriteRule ^([a-z]{2})/(.*)/([0-9]+)/(.*)\.html$ index.php?katalog=&hierarchie=$2&zobrazit=$4&id_url=$3&jazyk_z_url=$1&ht=25 [L]
+#RewriteRule ^([a-z]{2})/(.*)/(.*)\.html$ index.php?katalog=&hierarchie=$2&zobrazit=$3&jazyk_z_url=$1&ht=10 [L]
+#RewriteRule ^([a-z]{2})/([^.]+)$ index.php?katalog=&hierarchie=$2&jazyk_z_url=$1&ht=11 [L]
+#
+#RewriteRule ^([a-z]{2})/nastaveni/([^/]+).php$ index.php?stranka=$2&jazyk_z_url=$1&ht=12 [L,QSA]
+#RewriteRule ^([a-z]{2})/nastaveni/([^/]+).html$ index.php?stranka=$2&jazyk_z_url=$1&ht=13 [L,QSA]
+#
+#RewriteRule ^([a-z]{2})/(.*)/(.*)\.php$ index.php?katalog=&hierarchie=$2&upravit=$3&jazyk_z_url=$1&ht=14 [L,QSA]
+#RewriteRule ^([a-z]{2})/(.*)/(.*)\.html$ index.php?katalog=&hierarchie=$2&zobrazit=$3&jazyk_z_url=$1&ht=15 [L]
+#RewriteRule ^([a-z]{2})/([^.]+)$ index.php?katalog=&hierarchie=$2&jazyk_z_url=$1&ht=16 [L]
+
+#Kategorie článků
+#RewriteRule ^([a-z]{2})/clanky/(.*)/([0-9]+)/([^/]+).php$ index.php?clanky=&hierarchie=$2&upravit=$4&id_url=$3&jazyk_z_url=$1&ht=17 [L]
+#RewriteRule ^([a-z]{2})/clanky/(.*)/(.*)\.php$ index.php?clanky=&hierarchie=$2&upravit=$3&jazyk_z_url=$1&ht=18 [L,QSA]
+#RewriteRule ^([a-z]{2})/clanky/(.*)/([0-9]+)/([^/]+).html$ index.php?clanky=&hierarchie=$2&zobrazit=$4&id_url=$3&jazyk_z_url=$1&ht=19 [L]
+#RewriteRule ^([a-z]{2})/clanky/(.*)/(.*)\.html$ index.php?clanky=&hierarchie=$2&zobrazit=$3&jazyk_z_url=$1&ht=20 [L]
+#RewriteRule ^([a-z]{2})/clanky/(.*)$ index.php?clanky=&hierarchie=$2&jazyk_z_url=$1&ht=21 [L]
+#
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([a-z]{2})/([^/]+).(php|html)$ index.php?stranka=$2&jazyk_z_url=$1&ht=22 [L,QSA]
+#
+#
+#
+##Ostatní
+#RewriteRule ^system/php\.info$ index.php?php-info=&ht=23 [L]
+#RewriteRule ^zbozi.xml$ index.php?zbozi-xml=&ht=24 [L]
+#RewriteRule ^sitemap.xml$ index.php?sitemap-xml=&ht=25 [L]
