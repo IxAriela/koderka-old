@@ -1,6 +1,19 @@
 RewriteEngine On
 RewriteBase /koderka.net/
 
+## http://www.koderka.net > https://koderka.net
+#RewriteCond %{HTTP_HOST} ^www.koderka.net
+#RewriteRule ^(.*)$ https://koderka.net/$1 [R=301,QSA,L]
+
+## http://koderka.net > https://koderka.net
+#RewriteCond %{HTTPS} off
+#RewriteCond %{HTTP_HOST} ^koderka.net
+#RewriteRule ^(.*)$ https://koderka.net/$1 [R=301,QSA,L]
+
+## https://www.koderka.net > https://koderka.net
+#RewriteCond %{HTTPS} on
+#RewriteCond %{HTTP_HOST} ^www.koderka.net
+#RewriteRule ^(.*)$ https://koderka.net/$1 [R=301,QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^/]+).(php|html)$ index.php?page=$1 [L,QSA]   #tohle pravidlo ti neumozni delat zanorene adresy web.cz/prvnizanoreni/stranka.html
