@@ -78,13 +78,14 @@ shadow: 2px 2px 7px #000
 .services ul {
     display: flex;
     margin: 0;
+    margin-right: .5rem;
     padding: 0;
     list-style: none;
     justify-content: space-between;
 }
 .services ul li {
     position: relative;
-    padding-bottom: 15%;
+    padding-bottom: 10rem;
     width: /*30%*/ 45%;
     height: 0;
 }
@@ -92,14 +93,13 @@ shadow: 2px 2px 7px #000
     position: absolute;
     display: flex;
     color: #3E1730;
-    padding: 5% 10%;
+    padding: 1rem 10%;
     width: 80%;
-    height: 60%;
+    height: 8rem;
     font-size: 1.2rem;
     line-height: 1;
     font-weight: bold;
     text-decoration: none;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
