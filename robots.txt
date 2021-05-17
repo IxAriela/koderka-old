@@ -1,4 +1,2 @@
-User-Agent: *
-Allow: /
-Sitemap:http://www.dats.cz/sitemap.xml
-
+User-agent: *
+Disallow:
