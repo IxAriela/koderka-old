@@ -16,10 +16,10 @@ RewriteBase /koderka.net/
 #RewriteRule ^(.*)$ https://koderka.net/$1 [R=301,QSA,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^pages/action/([^/]+).(php|html)$ index.php?action=$1 [L,QSA]  #proto nesly ani akce takze specialne pro akce jsem doplnil toto
-RewriteRule ^([^/]+).(php|html)$ index.php?page=$1 [L,QSA]   #tohle pravidlo ti neumozni delat zanorene adresy web.cz/prvnizanoreni/stranka.html
-RewriteRule ^([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2 [L,QSA] #koderka.net/neco/stranka.html soubor v pages musi byt page_neco_stranka.php
-RewriteRule ^([^/]+)/([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2_$3 [L,QSA] #koderka.net/neco/neco/stranka.html soubor v pages musi byt page_neco_neco_stranka.php
-RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2_$3_$4 [L,QSA] #koderka.net/neco/neco/neco/stranka.html soubor v pages musi byt page_neco_neco_neco_stranka.php
-RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2_$3_$4_$5 [L,QSA] #koderka.net/neco/neco/neco/neco/stranka.html soubor v pages musi byt page_neco_neco_neco_neco_stranka.php
+RewriteRule ^action/([^/]+).(php|html)$ index.php?action=$1 [L,QSA]
+RewriteRule ^([^/]+).(php|html)$ index.php?page=$1 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2_$3 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2_$3_$4 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2_$3_$4_$5 [L,QSA]
 

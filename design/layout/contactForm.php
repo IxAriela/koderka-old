@@ -1,7 +1,7 @@
 <h2 class="paddingB0">Zaujala Vás moje nabídka? Nebo máte dotaz?</h2>
 <p class="marginT0">Neváhejte mne kontaktovat!</p>
 
-<form id="writeMe"  method="post" action="<?php echo(PREFIX); ?>pages/action/writeMe.php" onsubmit="return confirm('Opravdu chcete zprávu odeslat?');">
+<form id="writeMe"  method="post" action="<?php echo(PREFIX); ?>action/writeMe.php" onsubmit="return confirm('Opravdu chcete zprávu odeslat?');">
     <div title="SPM LEST" class="trick">
         <label>JMÉNO: <input type="text" id="name" name="name" value="" maxlength="50" /></label><br />
         <label>E-MAIL: <input type="text" id="email" name="email" value="" maxlength="100" /></label><br />
