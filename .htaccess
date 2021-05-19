@@ -22,4 +22,3 @@ RewriteRule ^([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2 [L,QSA]
 RewriteRule ^([^/]+)/([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2_$3 [L,QSA]
 RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2_$3_$4 [L,QSA]
 RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+).(php|html)$ index.php?page=$1_$2_$3_$4_$5 [L,QSA]
-
