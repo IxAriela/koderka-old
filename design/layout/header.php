@@ -37,29 +37,41 @@
             //]]>
         </script>
 
+        <?php
+        if($test != TRUE) {
+            ?>
         <!-- Google Tag Manager -->
-<!--        <script>(function (w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({'gtm.start':
-                            new Date().getTime(), event: 'gtm.js'});
-                var f = d.getElementsByTagName(s)[0],
-                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src =
-                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-PD3PG2F');</script>-->
+            <script>(function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({'gtm.start':
+                                new Date().getTime(), event: 'gtm.js'});
+                    var f = d.getElementsByTagName(s)[0],
+                            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                    j.async = true;
+                    j.src =
+                            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-PD3PG2F');</script>
         <!-- End Google Tag Manager -->
-
+ <?php
+        }
+        ?>
     </head>
 
     <body>
+        <?php
+        if($test != TRUE) {
+            ?>
+
         <!-- Google Tag Manager (noscript) -->
-<!--        <noscript>
+        <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD3PG2F"
                 height="0" width="0" style="display:none;visibility:hidden"></iframe>
-        </noscript>-->
+        </noscript>
         <!-- End Google Tag Manager (noscript) -->
+        <?php
+        }
+        ?>
         <header class="header">
             <div class="container clearfix">
                 <div class="logo">
@@ -70,15 +82,15 @@
                 <nav class="menu">
                     <ul class="ul-menu">
                         <li class="home"><a<?php if ($page == $pageIndex) echo(' class="active"'); ?> href="<?php echo(PREFIX); ?>">Home</a></li>
-                        <li><a<?php if (($page == "sluzby") || ($page == "weby") || ($page == "html-css-prace") || ($page == "ux-konzultace")) echo(' class="active"'); ?> href="sluzby.html">Služby</a>
+                        <li><a<?php if (($page == "sluzby") || ($page == "weby") || ($page == "html-css-prace") || ($page == "ux-konzultace")) echo(' class="active"'); ?> href="<?php echo(PREFIX); ?>sluzby.html">Služby</a>
                             <ul>
-                                <li><a<?php if ($page == "weby") echo(' class="active"'); ?> href="weby.html">Webové stránky</a></li>
-                                <li><a<?php if ($page == "html-css-prace") echo(' class="active"'); ?> href="html-css-prace.html">Ostatní HTML/CSS práce</a></li>
-                                <!--<li><a<?php if ($page == "ux-konzultace") echo(' class="active"'); ?> href="ux-konzultace.html">UX konzultace</a></li>-->
+                                <li><a<?php if ($page == "weby") echo(' class="active"'); ?> href="<?php echo(PREFIX); ?>sluzby/weby.html">Webové stránky</a></li>
+                                <li><a<?php if ($page == "html-css-prace") echo(' class="active"'); ?> href="<?php echo(PREFIX); ?>sluzby/html-css-prace.html">Ostatní HTML/CSS práce</a></li>
+                                <!--<li><a<?php if ($page == "ux-konzultace") echo(' class="active"'); ?> href="<?php echo(PREFIX); ?>sluzby/ux-konzultace.html">UX konzultace</a></li>-->
                             </ul>
                         </li>
-                        <!--<li><a<?php if ($page == "o-mne") echo(' class="active"'); ?> href="o-mne.html">O mně</a></li>-->
-                        <li><a<?php if ($page == "kontakty") echo(' class="active"'); ?> href="kontakty.html">Kontakt</a></li>
+                        <!--<li><a<?php if ($page == "o-mne") echo(' class="active"'); ?> href="<?php echo(PREFIX); ?>o-mne.html">O mně</a></li>-->
+                        <li><a<?php if ($page == "kontakty") echo(' class="active"'); ?> href="<?php echo(PREFIX); ?>kontakty.html">Kontakt</a></li>
                     </ul>
                 </nav><!-- /.menu -->
             </div><!-- /.container -->

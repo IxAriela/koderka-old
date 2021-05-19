@@ -15,9 +15,9 @@ include("design/layout/header.php");
 <div class="services">
     <h2>Moje nabídka</h2>
     <ul>
-        <li><a href="<?php echo(PREFIX); ?>weby.html"><i class="icofont-brand-wordpress icofont-3x"></i><br />Tvorba webů</a></li>
-        <li><a href="<?php echo(PREFIX); ?>html-css-prace.html"><i class="icofont-code icofont-3x"></i><br />Ostatní HTML/CSS práce</a></li>
-        <!--<li><a href="<?php echo(PREFIX); ?>ux-konzultace.html"><i class="icofont-architecture-alt icofont-3x"></i><br />UX konzultace</a></li>-->
+        <li><a href="<?php echo(PREFIX); ?>sluzby/weby.html"><i class="icofont-brand-wordpress icofont-3x"></i><br />Tvorba webů</a></li>
+        <li><a href="<?php echo(PREFIX); ?>sluzby/html-css-prace.html"><i class="icofont-code icofont-3x"></i><br />Ostatní HTML/CSS práce</a></li>
+        <!--<li><a href="<?php echo(PREFIX); ?>sluzby/ux-konzultace.html"><i class="icofont-architecture-alt icofont-3x"></i><br />UX konzultace</a></li>-->
     </ul>
 </div>
 
