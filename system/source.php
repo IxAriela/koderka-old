@@ -3,6 +3,7 @@
 define("EMAIL_ODESILATELE", "info@koderka.net");
 define("EMAIL_PRIJEMCE", " ivet@koderka.net");
 
+$test = TRUE;
 
 
 //...Nastavení "hladiny" chyb
