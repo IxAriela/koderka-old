@@ -28,6 +28,7 @@
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="<?php echo(PREFIX); ?>system/js/jquery.fancybox.js"></script>
         <script src="script.js"></script> 
 
         <script type="text/javascript">
@@ -89,7 +90,7 @@
                                 <!--<li><a<?php if ($page == "ux-konzultace") echo(' class="active"'); ?> href="<?php echo(PREFIX); ?>sluzby/ux-konzultace.html">UX konzultace</a></li>-->
                             </ul>
                         </li>
-                        <!--<li><a<?php if ($page == "o-mne") echo(' class="active"'); ?> href="<?php echo(PREFIX); ?>o-mne.html">O mně</a></li>-->
+                        <li><a<?php if ($page == "o-mne") echo(' class="active"'); ?> href="<?php echo(PREFIX); ?>o-mne.html">O&nbsp;mně</a></li>
                         <li><a<?php if ($page == "kontakty") echo(' class="active"'); ?> href="<?php echo(PREFIX); ?>kontakty.html">Kontakt</a></li>
                     </ul>
                 </nav><!-- /.menu -->
