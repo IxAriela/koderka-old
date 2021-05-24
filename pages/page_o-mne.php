@@ -22,7 +22,7 @@ include("design/layout/header.php");
         začít podnikat. Na rozjezd je to ideální čas.
     </p>
     <p>
-        Pokud by vás má cesta k IT či začátky podnikání zajímaly více, můžete si počíst na mém <a href="https://blog.koderka.net">občasném blogu</a>. 
+        Pokud by vás má cesta k IT či začátky podnikání zajímaly více, můžete si počíst na mém <a target="_blank" href="https://blog.koderka.net">občasném blogu</a>. 
         Třeba tam časem přibude ještě pár dalších článků.
     </p>
 

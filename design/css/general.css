@@ -1,9 +1,21 @@
 
+html {
+    height: 100%;
+}
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  display: flex;
   background-color: #D3D3D3;
   font-family: open_sans, arial;
+  flex-direction: column;
+}
+section {
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
 }
 
 a {
@@ -139,6 +151,12 @@ img {
 }
 
 /* classes */
+.fLeft {
+    float: left;
+}
+.fRight {
+    float: right;
+}
 .clear {
     clear: both;
 }

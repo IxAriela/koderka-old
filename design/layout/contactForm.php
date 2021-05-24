@@ -20,6 +20,9 @@
         <textarea type="text" name="txtMessage" id="txtMessage" rows="3" placeholder="Vaše zpráva"><?php html_entities(isset($_SESSION["WRITE_ME"]["Message"]) ? $_SESSION["WRITE_ME"]["Message"] : ""); ?></textarea>
         <label for="txtMessage">Vaše zpráva:</label>
     </div>
+    <p>
+        Odesláním formuláře souhlasíte se zpracováním osobních údajů za účelem vyřízení vaší zprávy.
+    </p>
     <?php $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; ?>
     <input name="url" type="hidden" value="<?php echo $url; ?>">
     <input name="btnSend" type="submit">
