@@ -9,16 +9,16 @@ include("design/layout/header.php");
     <div class="textRight">
         <h1>Tvořím web</h1>
         <p class="big secondFont"> 
-            Potřebujete malý web ze šablony s jednoduchou administrací, či web úplně bez administrace, ale zato originální,
+            Potřebujete malý web ze šablony s&nbsp;jednoduchou administrací, či web úplně bez administrace, ale zato originální,
             podle grafického návrhu? <br /><b>To jste tady správně.</b>
         </p>
         <p>
-            Jmenuji se Iveta Nešpor Levová, jsem geekgirl a vytvářím weby. Specializuji se na <strong>malé weby</strong> a drobné zakázky. Tím zaručuji,
-            že i té nejmenší zakázce se budu věnovat na 100%, protože ji žádná velká "nepřebije".
+            Jmenuji se Iveta Nešpor&nbsp;Levová, jsem geekgirl a&nbsp;vytvářím weby. Specializuji se na&nbsp;<strong>malé weby</strong> a&nbsp;drobné zakázky. Tím zaručuji,
+            že i&nbsp;té nejmenší zakázce se budu věnovat na 100&nbsp;%, protože ji žádná velká "nepřebije".
         </p> 
         <p>
-            Spolupracuji také s grafiky, kteří umí návrhy webů a tak toto můžu 
-            zprostředkovat a vy se, krom vyjádření svých požadavků, nemusíte o nic starat.
+            Spolupracuji také s&nbsp;grafiky, kteří umí návrhy webů a&nbsp;tak toto můžu 
+            zprostředkovat a&nbsp;vy se, krom vyjádření svých požadavků, nemusíte o&nbsp;nic starat.
         </p>
     </div>
 </div>
@@ -27,7 +27,7 @@ include("design/layout/header.php");
     <h2>Moje nabídka</h2>
     <ul>
         <li><a href="<?php echo(PREFIX); ?>sluzby/weby.html"><i class="icofont-brand-wordpress icofont-3x"></i><br />Tvorba webů</a></li>
-        <li><a href="<?php echo(PREFIX); ?>sluzby/html-css-prace.html"><i class="icofont-code icofont-3x"></i><br />Ostatní HTML/CSS práce</a></li>
+        <li><a href="<?php echo(PREFIX); ?>sluzby/html-css-prace.html"><i class="icofont-code icofont-3x"></i><br />Ostatní HTML/CSS&nbsp;práce</a></li>
         <!--<li><a href="<?php echo(PREFIX); ?>sluzby/ux-konzultace.html"><i class="icofont-architecture-alt icofont-3x"></i><br />UX konzultace</a></li>-->
     </ul>
 </div>

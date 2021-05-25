@@ -7,22 +7,22 @@ include("design/layout/header.php");
 
     <img class="imgLeft margin1" alt="Iveta Nešpor Levová, fotil Marek Mantič" title="fotil Marek Mantič" src="<?php echo PREFIX; ?>design/img/materska.jpg" />
 
-    <h1>O mně</h1>
+    <h1>O&nbsp;mně</h1>
     <p>
-        Jmenuji se Iveta Nešpor Levová, jsem geekgirl a vytvářím weby. Že chci dělat něco s weby jsem věděla už na vysoké škole, kde jsem se poprvé 
-        více začala dozvídat o internetu, webech a různých webových technologiích. Jen tehdy jsem ještě nevěděla přesně co, protože 
-        to nebyl IT obor a HTML jsme probírali pouze okrajově, CSS vůbec. A přitom až CSS je ta pravá zábava, dodává tomu ten vzhled :) 
+        Jmenuji se Iveta Nešpor&nbsp;Levová, jsem geekgirl a&nbsp;vytvářím weby. Že chci dělat něco s&nbsp;weby jsem věděla už na vysoké škole, kde jsem se poprvé 
+        více začala dozvídat o&nbsp;internetu, webech a&nbsp;různých webových technologiích. Jen tehdy jsem ještě nevěděla přesně co, protože 
+        to nebyl IT obor a&nbsp;HTML jsme probírali pouze okrajově, CSS vůbec. A&nbsp;přitom až CSS je ta pravá zábava, dodává tomu ten vzhled :) 
     </p> 
     <p> 
-        Protože s IT jsem začala až relativně pozdě, troufám si říct, že jsem neztratila nic
-        z "běžného" jazyka a dokážu i techničtější webové věci vysvětlit laickým způsobem.
+        Protože s&nbsp;IT jsem začala až relativně pozdě, troufám si říct, že jsem neztratila nic
+        z&nbsp;"běžného" jazyka a&nbsp;dokážu i&nbsp;techničtější webové věci vysvětlit laickým způsobem.
     </p>
     <p>
-        Nyní jsem na rodičovské dovolené a protože mozek potřebuje trénovat a kódění procvičovat, rozhodla jsem se
+        Nyní jsem na rodičovské dovolené a&nbsp;protože mozek potřebuje trénovat a&nbsp;kódění procvičovat, rozhodla jsem se
         začít podnikat. Na rozjezd je to ideální čas.
     </p>
     <p>
-        Pokud by vás má cesta k IT či začátky podnikání zajímaly více, můžete si počíst na mém <a target="_blank" href="https://blog.koderka.net">občasném blogu</a>. 
+        Pokud by vás má cesta k&nbsp;IT či začátky podnikání zajímaly více, můžete si počíst na mém <a target="_blank" href="https://blog.koderka.net">občasném blogu</a>. 
         Třeba tam časem přibude ještě pár dalších článků.
     </p>
 
@@ -32,44 +32,40 @@ include("design/layout/header.php");
     <div class="container clearfix">
         <img class="imgRight margin1" alt="Vzdělání; Obrázek z Unsplash od Andrew Neel" title="Obrázek z Unsplash od Andrew Neel" src="<?php echo PREFIX; ?>design/img/education.jpg" />
 
-        <h2>Vzdělání a praxe</h2>
+        <h2>Vzdělání a&nbsp;praxe</h2>
 
         <div class="textRight">
             <p>
-                Vystudovala jsem Masarykovu Univerzitu v&nbsp;oboru Informační studia a knihovnictví, což je&nbsp;velmi aktivní a&nbsp;pokrokový obor. Naučil mně mnoho věcí ohledně internetu a&nbsp;webu, ale 
+                Vystudovala jsem Masarykovu Univerzitu v&nbsp;oboru Informační studia a&nbsp;knihovnictví, což je&nbsp;velmi aktivní a&nbsp;pokrokový obor. Naučil mně mnoho věcí ohledně internetu a&nbsp;webu, ale 
                 i&nbsp;např.&nbsp;soft skills či&nbsp;marketingu. Poslední semestr jsem využila lehce netradičně a&nbsp;jela jsem na&nbsp;studijní výjezd Erasmus do&nbsp;estonského Tallinnu.
             </p>
             <p>
-                Po návratu jsem si rovnou začala hledat práci a nakonec našla - v Národní technické knihovně ve službách. Práce mě bavila, ale postupně
-                jsem si začala uvědomovat, že se tam nemám kam profesně posouvat. Navíc se přidala nespokojenost s vedením a tak vznikl impulz, proč změnit 
-                obor a naučit se něco úplně nového. Už na VŠ mě vždy nejvíc bavily a zajímaly weby a tak bylo jasné, jakou cestou se chci dát.
+                Po návratu jsem si rovnou začala hledat práci a&nbsp;nakonec našla -&nbsp;v&nbsp;Národní technické knihovně ve službách. Práce mě bavila, ale postupně
+                jsem si začala uvědomovat, že se tam nemám kam profesně posouvat. Navíc se přidala nespokojenost s&nbsp;vedením a&nbsp;tak vznikl impulz, proč změnit 
+                obor a&nbsp;naučit se něco úplně nového. Už na VŠ mě vždy nejvíc bavily a&nbsp;zajímaly weby a&nbsp;tak bylo jasné, jakou cestou se chci dát.
             </p>
             <p>
-                Začala jsem se učit HTML a CSS z různých online kurzů a protože do té doby jsem znala pouze základy HTML, CSS mě nadchlo. Kolik věcí se 
-                s tím najednou dalo dělat! S těmito základy mě přijali v reklamní agentuře MARF, kde jsem rozšiřovala své znalosti v praxi. Naučila jsem se 
-                i základy PHP, ale programování mě nebaví tolik, jako styly.
+                Začala jsem se učit HTML a&nbsp;CSS z&nbsp;různých online kurzů a&nbsp;protože do té doby jsem znala pouze základy HTML, CSS mě nadchlo. Kolik věcí se 
+                s&nbsp;tím najednou dalo dělat! S těmito základy mě přijali v&nbsp;reklamní agentuře MARF, kde jsem rozšiřovala své znalosti v&nbsp;praxi. Naučila jsem se 
+                i&nbsp;základy PHP, ale programování mě nebaví tolik, jako styly.
             </p>
         </div>
     </div>
 </div>
 <div class="padding2">
     <div class="container clearfix">
-        <h2>Certifikáty a absolvovaná školení</h2>
+        <h2>Certifikáty a&nbsp;absolvovaná školení</h2>
         <p>
-            Jako každý, kdo chce zůstat ve svém oboru dobrý, se i vzdělávám. Prošla jsem různá školení a další 
-            určitě budou přibývat i v budoucnu.
+            Jako každý, kdo chce zůstat ve svém oboru dobrý, se i&nbsp;vzdělávám. Prošla jsem různá školení a&nbsp;další 
+            určitě budou přibývat i&nbsp;v budoucnu.
         </p>
         <ul>
             <li><a href="<?php echo(PREFIX); ?>design/img/certs/fajnOvy-web.jpg" data-fancybox="certificates">Czechitas: FajnOvy web</a></li>
             <li>Martin Michálek: Dnešní webová kodéřina</li>
             <li>Martin Michálek: Responzivní web</li>
-            <li><a href="<?php echo(PREFIX); ?>design/img/certs/bezpecnost.jpg" data-fancybox="certificates">Michal Špaček: Bezpečnost a výkonnost webových aplikací</a></li>
+            <li><a href="<?php echo(PREFIX); ?>design/img/certs/bezpecnost.jpg" data-fancybox="certificates">Michal Špaček: Bezpečnost a&nbsp;výkonnost webových aplikací</a></li>
 
         </ul>
-        <a class="foto" href="<?php echo(PREFIX); ?>foto/martin/1.jpg" data-fancybox="gallery"><img src="<?php echo(PREFIX); ?>foto/martin/1m.jpg" alt="" /></a>
-        <a class="foto" href="<?php echo(PREFIX); ?>foto/martin/2.jpg" data-fancybox="gallery"><img src="<?php echo(PREFIX); ?>foto/martin/2m.jpg" alt="" /></a>
-        <a class="foto" href="<?php echo(PREFIX); ?>foto/martin/3.jpg" data-fancybox="gallery"><img src="<?php echo(PREFIX); ?>foto/martin/3m.jpg" alt="" /></a>
-        <a class="foto" href="<?php echo(PREFIX); ?>foto/martin/4.jpg" data-fancybox="gallery"><img src="<?php echo(PREFIX); ?>foto/martin/4m.jpg" alt="" /></a>
     </div>
 </div>
 

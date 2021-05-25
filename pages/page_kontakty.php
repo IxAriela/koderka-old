@@ -12,7 +12,7 @@ include("design/layout/header.php");
 <br /><hr />
 <p class="small">
     <b>IČO:</b> 10851411<br />
-    Fyzická osoba zapsaná v Živnostenském rejstříku na Magistrátu města Ostravy od 1. 6. 2021.
+    Fyzická osoba zapsaná v&nbsp;Živnostenském rejstříku na Magistrátu města Ostravy od&nbsp;1.&nbsp;6.&nbsp;2021.
 </p>
 <hr /><br />
 

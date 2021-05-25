@@ -4,7 +4,7 @@ include("design/layout/header.php");
 <h1>Tvorba webových stránek</h1>
 
 <p>
-    Tvorbou webových stránek se zabývám posledních 5 let. Dříve v malé reklamní agentuře, i tam jsem se ovšem zaměřovala
+    Tvorbou webových stránek se zabývám posledních 5&nbsp;let. Dříve v&nbsp;malé reklamní agentuře, i&nbsp;tam jsem se ovšem zaměřovala
     primárně na malé weby. To je to, co mě baví.
 </p>
 
@@ -15,9 +15,9 @@ include("design/layout/header.php");
 <h2>Wordpress vs. statické stránky</h2>
 <p>
     <strong>Wordpress</strong> je nejrozšířenější redakční systém, je jednoduchý na používání, 
-    je na něj spousta šablon a dopňků a lze jej ovládat bez znalosti programování.
+    je na něj spousta šablon a&nbsp;dopňků a&nbsp;lze jej ovládat bez znalosti programování.
     Po nainstalování si tedy můžete obsah sami upravovat. Je vhodný zejména na blogy,
-    případně dynamické weby, kde se často obsah mění a upravuje.
+    případně dynamické weby, kde se často obsah mění a&nbsp;upravuje.
 </p>
 <p>
     <strong>Statické stránky</strong> jsou weby bez administrace. Pro editaci textů je potřeba znát
@@ -31,16 +31,16 @@ include("design/layout/header.php");
 <div class="bgLight padding2">
 <div class="container clearfix">
 <img class="imgLeft margin1" alt="Doména; Obrázek z Pixabay od PublicDomainPictures" title="Obrázek z Pixabay od PublicDomainPictures" src="<?php echo PREFIX; ?>design/img/domain.jpg" />
-<h2>Doména a hosting</h2>
+<h2>Doména a&nbsp;hosting</h2>
 <p>
-    Protože k webům neodmyslitelně patří i doména (www.domena.cz) a hosting 
+    Protože k&nbsp;webům neodmyslitelně patří i&nbsp;doména (www.domena.cz) a&nbsp;hosting 
     (místo, kde jsou uložené soubory webu), stejně tak do mých balíčků patří
-    pomoc s jejich zakoupením a výběrem.
+    pomoc s&nbsp;jejich zakoupením a&nbsp;výběrem.
 </p>
 <p>
-    U konkurence se můžete setkat s tím, že vám doménu a hosting přímo koupí.
-    Na první pohled to zní lákavě, nemuset se o nic starat. Já ale chci být férová,
-    doména i hosting má být vaše vlastnictví a pokud vše koupím já, není možné toto splnit.
+    U&nbsp;konkurence se můžete setkat s&nbsp;tím, že vám doménu a&nbsp;hosting přímo koupí.
+    Na první pohled to zní lákavě, nemuset se o&nbsp;nic starat. Já ale chci být férová,
+    doména i&nbsp;hosting má být vaše vlastnictví a&nbsp;pokud vše koupím já, není možné toto splnit.
 </p>
 
 </div>
@@ -50,15 +50,15 @@ include("design/layout/header.php");
 <img class="imgRight margin1" alt="SEO; Obrázek z Pixabay od Firmbee" title="Obrázek z Pixabay od Firmbee" src="<?php echo PREFIX; ?>design/img/seo.jpg" />
 <h2>Základní SEO</h2>
 <p>
-    Každý web potřebuje být nalezitelný a k tomu slouží SEO (optimalizace
+    Každý web potřebuje být nalezitelný a&nbsp;k&nbsp;tomu slouží SEO (optimalizace
     pro vyhledávače). Součástí mých balíčků je základní nastavení webu,
-    indexace ve vyhledávačích Seznam a Google, a v případě zájmu také přidání
-    měřicích kódů Google Analytics a jejich základní nastavení (měří návštěvnost webu).
-    Samozřejmostí je také nastavení webu na https zabezpečení a jeho aktivace u základních
+    indexace ve vyhledávačích Seznam a&nbsp;Google, a&nbsp;v&nbsp;případě zájmu také přidání
+    měřicích kódů Google Analytics a&nbsp;jejich základní nastavení (měří návštěvnost webu).
+    Samozřejmostí je také nastavení webu na https zabezpečení a&nbsp;jeho aktivace u&nbsp;základních
     hostingových poskytovalů (pokud budu mít přístup do administrace).
 </p>
 <p>
-    <i>Tyto nastavení jsou jednorázová a zaručí vám pouze, že vás vyhledávač najde. 
+    <i>Tyto nastavení jsou jednorázová a&nbsp;zaručí vám pouze, že vás vyhledávač najde. 
     Pro dosažení dobrých pozic ve vyhledávání je potřeba pravidelná práce 
     SEO specialisty či marketéra.</i>
 </p>
@@ -72,8 +72,8 @@ include("design/layout/header.php");
 <h2>Responsivní web</h2>
 
 <p>
-    Všechny weby, které dělám, automaticky přizpůsobuji i mobilním telefonům a dalším zařízením. 
-    Google zavedl penalizaci webům, které responsivní nejsou, tedy je to nutnost i z tohoto pohledu.<br />
+    Všechny weby, které dělám, automaticky přizpůsobuji i&nbsp;mobilním telefonům a&nbsp;dalším zařízením. 
+    Google zavedl penalizaci webům, které responsivní nejsou, tedy je to nutnost i&nbsp;z&nbsp;tohoto pohledu.<br />
     Pokud si objednáte web ze šabony, při výběru doporučuji zkontrolovat, že je responsivní. Šablony
     do responsivu neupravuji.
 </p>
@@ -104,7 +104,7 @@ include("design/layout/header.php");
             <li>Nastavení šablony</li>
             <li>Přehledný průvodce administrací</li>
             <li>Nastavení základních doplňků</li>
-            <li>Naplnění webu vámi dodaným obsahem (do 10 stránek)</li>
+            <li>Naplnění webu vámi dodaným obsahem (do 10&nbsp;stránek)</li>
 
         </ul>
 
@@ -117,9 +117,9 @@ include("design/layout/header.php");
             <li>Nastavení šablony</li>
             <li>Přehledný průvodce administrací</li>
             <li>Nastavení základních doplňků</li>
-            <li>Naplnění webu vámi dodaným obsahem (do 50 stránek)</li>
+            <li>Naplnění webu vámi dodaným obsahem (do 50&nbsp;stránek)</li>
             <li>vícejazyčný web</li>
-            <li>online podpora k administraci ještě 1 měsíc po předání webu</li>
+            <li>online podpora k administraci ještě 1&nbsp;měsíc po předání webu</li>
         </ul>
 
         <div class="price">od 15 000,-</div>
@@ -127,7 +127,7 @@ include("design/layout/header.php");
 </div>
 
 <p class="small">
-    * Ceny neobsahují placenou šablonu, pluginy či fotky z fotobanky.
+    *&nbsp;Ceny neobsahují placenou šablonu, pluginy či fotky z&nbsp;fotobanky.
 </p>
 <br />
 
@@ -144,7 +144,7 @@ include("design/layout/header.php");
         <h3>Webová vizitka</h3>
         <ul>
             <li>Vytvoření vizitky podle grafického návrhu nebo šablony</li>
-            <li>Doplnění textů a základních údajů, případně zprovoznění kontaktního formuláře</li>
+            <li>Doplnění textů a&nbsp;základních údajů, případně zprovoznění kontaktního formuláře</li>
         </ul>
 
         <div class="price">od 2 000,-</div>
@@ -153,7 +153,7 @@ include("design/layout/header.php");
         <h3>Web ze šablony</h3>
         <ul>
             <li>Doladění šablony pro vaše účely</li>
-            <li>Doplnění textů a základních údajů, případně zprovoznění kontaktního formuláře</li>
+            <li>Doplnění textů a&nbsp;základních údajů, případně zprovoznění kontaktního formuláře</li>
         </ul>
 
         <div class="price">od 4 000,-</div>
@@ -162,14 +162,14 @@ include("design/layout/header.php");
         <h3>Web podle grafického návrhu</h3>
         <ul>
             <li>Převedení grafického návrhu do funkčního webu</li>
-            <li>Doplnění textů a základních údajů, zprovoznění kontaktního formuláře</li>
+            <li>Doplnění textů a&nbsp;základních údajů, zprovoznění kontaktního formuláře</li>
         </ul>
 
         <div class="price">od 10 000,-</div>
     </div>
 </div>
 <p class="small">
-    * Ceny neobsahují placenou šablonu, grafický návrh či fotky z fotobanky.
+    *&nbsp;Ceny neobsahují placenou šablonu, grafický návrh či&nbsp;fotky z&nbsp;fotobanky.
 </p>
 <br />
 

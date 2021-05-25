@@ -2,10 +2,10 @@
 include("design/layout/header.php");
 ?>
 
-<h1>Další HTML/CSS práce</h1>
+<h1>Další HTML/CSS&nbsp;práce</h1>
 
 <p>
-    Potřebujete upravit již hotový statický web? Reklamní banner na webové stránky? Nebo jinou práci v HTML/CSS? Jsem tady pro vás!
+    Potřebujete upravit již hotový statický web? Reklamní banner na webové stránky? Nebo jinou práci v&nbsp;HTML/CSS? Jsem tady pro vás!
 </p>
 <p>
     Pár příkladů takových prací:
